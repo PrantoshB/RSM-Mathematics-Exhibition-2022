@@ -404,4 +404,312 @@
   text-decoration: none;
   font-size: 1.5rem;
   }
+  /* Desktop Version Starts Here */
+
+@media screen and (min-width: 768px) {
+    .topbar {
+      background: black;
+      height: 4vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 4%;
+    }
   
+    .topbar a {
+      text-decoration: none;
+      color: white;
+      font-size: 0.8rem;
+      margin: auto 1%;
+    }
+  
+    .topbar i {
+      font-size: 1.2rem;
+      margin-left: 1%;
+    }
+  
+    .navigation {
+      display: flex;
+      justify-content: center;
+      border-bottom: 0.5px solid rgb(230, 230, 230);
+      padding: 0 5%;
+    }
+  
+    .desktopnav {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+    }
+  
+    #sitelogo {
+      width: 20%;
+    }
+  
+    .navigation img {
+      width: 55%;
+    }
+  
+    .desktopnav a {
+      text-decoration: none;
+      color: black;
+      font-weight: 400;
+    }
+  
+    #activelink {
+      color: rgb(255, 73, 37);
+    }
+  
+    .program-section a {
+      display: block;
+      margin: 3% auto;
+      color: white;
+      text-align: center;
+    }
+  
+    .navigation a {
+      display: block;
+    }
+  
+    .desktopnav a:hover {
+      color: rgb(255, 73, 37);
+    }
+  
+    .desktopnav li {
+      margin-right: 2rem;
+      list-style: none;
+    }
+  
+    .desktopnav button {
+      background: transparent;
+      border: 4px solid rgb(255, 73, 37);
+      padding: 7% 10%;
+      width: 10vw;
+      color: rgb(255, 73, 37);
+    }
+  
+    .desktopnav button:hover {
+      background: rgb(255, 73, 37);
+      color: white;
+    }
+  
+    .main_info {
+      background-size: cover;
+    }
+  
+    .mainpagesection{
+      padding: 3% 10%;
+    }
+  
+    h3 {
+      font-weight: 400;
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  
+    h1 {
+      font-size: 5rem;
+    }
+  
+    #menubar{
+      display: none;
+    }
+  
+    .infosection p {
+      font-size: 1rem;
+    }
+  
+    .infosection h3 {
+      font-size: 2rem;
+    }
+  
+    .infosection h1 {
+      font-size: 4rem;
+      width: 70vw;
+    }
+  
+    .info_para {
+      width: 50vw;
+      padding: 2%;
+    }
+  
+    .time_and_venue h2 {
+      font-size: 2.5rem;
+    }
+  
+    .time_and_venue p {
+      font-size: 1.5rem;
+    }
+  
+    hr {
+      width: 5%;
+      margin: 1%;
+    }
+  
+    .programs {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      gap: 0.2%;
+      padding: 0 10%;
+    }
+  
+    .single_program {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      margin: 0.2%;
+      padding: 20% 5%;
+      border: 2px solid transparent;
+    }
+  
+    .single_program img,
+    #forum {
+      width: 15%;
+    }
+  
+    .single_program:hover {
+      border: 2px solid rgb(153, 153, 153);
+    }
+  
+    .single_program p {
+      width: 100%;
+    }
+  
+    .join_cc {
+      display: none;
+    }
+  
+    .program-section {
+      padding: 3%;
+    }
+  
+    .morebtn {
+      display: none;
+    }
+  
+    .partner_photos {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: 60vw;
+    }
+  
+    .partner_photos img {
+      width: 15%;
+    }
+  
+    .lastitem {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+    }
+  
+    .lastitem img {
+      width: 15%;
+    }
+  
+    .lastitem p {
+      font-size: 1em;
+      margin: 4%;
+      width: auto;
+    }
+  
+    .speakers {
+      padding: 4% 10%;
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  
+    .single-speakers img {
+      width: 8rem;
+      height: 8rem;
+    }
+  
+    .single-speakers h3 {
+      font-size: 1.5rem;
+    }
+  
+    .single-speakers hr {
+      width: 5%;
+    }
+  
+    .speakerdesc {
+      font-size: 14px;
+    }
+  
+    .speaker_lastdesc {
+      font-size: 15px;
+    }
+  
+    .contact h4 a {
+      font-size: 1.3rem;
+    }
+  
+  
+    .about_infosection {
+      padding: 10% 0 0 0;
+    }
+  
+    .about_infosection p {
+      font-size: 1rem;
+    }
+  
+    .about_infosection h3 {
+      font-size: 2rem;
+    }
+  
+    .about_infosection h1 {
+      font-size: 2.5rem;
+      width: 70vw;
+    }
+  
+    .about_info_para {
+      width: 50vw;
+      padding: 2%;
+    }
+  
+    .contact p {
+      font-size: 1.2rem;
+    }
+  
+    .cc_logo {
+      border-top: 1px solid rgb(230, 230, 230);
+      border-bottom: 1px solid rgb(230, 230, 230);
+      padding: 4%;
+      margin-bottom: 5%;
+    }
+  
+    .cc_logo h2 {
+      width: 90vw;
+    }
+  
+    .cc_logo p {
+      font-size: 1rem;
+    }
+  
+    .cc_logo img {
+      width: 15%;
+      padding: 1% 10%;
+      margin: 5% 0 1% 0;
+    }
+  
+    .past_summits p {
+      margin: 3%;
+      font-size: 1rem;
+    }
+  
+    .summitphotos {
+      flex-direction: row;
+      align-items: baseline;
+    }
+  
+    .past {
+      width: 40vw;
+      height: 35vh;
+    }
+  
+  }
