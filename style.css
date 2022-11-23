@@ -1,0 +1,719 @@
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.infosection {
+  background-image: url('assets/background-capstone.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background-size: 100% 90%; */
+  background-attachment: fixed;
+}
+
+.mainpagesection {
+  padding: 7% 4%;
+}
+
+.desktopnav {
+  display: none;
+}
+
+.navigation a {
+  display: none;
+}
+
+.main_info h3 {
+  color: rgb(251, 43, 2);
+  margin: 10% 2% 3% 2%;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.main_info h1 {
+  -webkit-background-clip: text;
+  font-size: 1.8rem;
+  background-clip: text;
+  background-image: url('https://media.istockphoto.com/id/990855930/vector/abstract-red-orange-polygonal-vector-background.jpg?s=170667a&w=0&k=20&c=_4_PO1YaKQ0eEf5sPzVMdEwqdt36rBOCnauNfFS7RbI=');
+  color: transparent;
+  background-position: center left;
+  margin: 0 2%;
+}
+
+.info_para {
+  border: 2px solid white;
+  padding: 5%;
+  margin: 2%;
+  font-size: 13px;
+}
+
+.time_and_venue {
+  margin: 5% 2%;
+}
+
+.time_and_venue h2,
+p {
+  margin: 1% 0;
+}
+
+.program-section {
+  background: url('https://w0.peakpx.com/wallpaper/790/822/HD-wallpaper-black-mesh-texture-creative-black-background-hexagons-texture-black-texture-mesh-black-background-thumbnail.jpg');
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+
+hr {
+  width: 15%;
+  border: 1px solid rgb(251, 43, 2);
+  margin: 3%;
+}
+
+.single_program {
+  border-radius: 3px;
+  padding: 5% 4%;
+  margin: 2% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(80, 80, 80, 0.7);
+}
+
+.single_program p {
+  width: 60%;
+  font-size: 14px;
+}
+
+.single_program h4 {
+  color: rgb(255, 73, 37);
+}
+
+.single_program img {
+  width: 9.5%;
+}
+
+#forum {
+  width: 10.5%;
+}
+
+.join_cc {
+  cursor: pointer;
+  padding: 5%;
+  color: white;
+  background-color: rgb(251, 43, 2);
+  border: none;
+  margin: 5%;
+  width: 80vw;
+}
+
+.program-section a {
+  display: none;
+}
+
+.featured-section {
+  margin: 5% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single-speakers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+}
+
+.speakerdetails {
+  width: 80%;
+  margin-left: 5%;
+}
+
+.single-speakers img {
+  width: 90px;
+  object-fit: cover;
+  height: 90px;
+  background-image: url(assets/speaker_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  padding: 10px;
+}
+
+#menubar {
+  padding: 5%;
+}
+
+.speakerdesc {
+  font-size: 12px;
+  color: rgb(251, 43, 2);
+}
+
+.speaker_lastdesc {
+  font-size: 13px;
+}
+
+.speaker-divide {
+  width: 10%;
+  border: 1px solid rgb(198, 198, 198);
+  margin: 3% 0;
+}
+
+.partners {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  background: rgb(36, 36, 36);
+}
+
+.partner_photos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners img {
+  width: 27%;
+  margin: 0 2%;
+  height: 27%;
+  filter: invert(70%) sepia(28%) saturate(4%) hue-rotate(357deg) brightness(106%) contrast(97%);
+}
+
+.lastitem {
+  display: flex;
+  align-items: center;
+  padding: 5%;
+  justify-content: space-between;
+}
+
+.topbar {
+  display: none;
+}
+
+.lastitem img {
+  width: 35%;
+}
+
+.lastitem p {
+  width: 60%;
+  font-size: 13px;
+}
+
+.main_about_info {
+  background-image: url('assets/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.about_infosection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_about_info h3 {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(251, 43, 2);
+}
+
+.main_about_info h1 {
+  color: rgb(251, 43, 2);
+  padding: 0 7%;
+  margin: 0 2%;
+  margin: 4% 0 0 0;
+  font-weight: 800;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 90vw;
+}
+
+.about_infosection p {
+  margin: 5% 4% 0 4%;
+  padding: 4% 5%;
+  color: rgb(100, 100, 100);
+  background: white;
+  border: 1px solid rgb(230, 230, 230);
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.contact {
+  margin: 0 auto;
+  line-height: 2;
+  text-align: center;
+  width: 65vw;
+  padding: 5%;
+}
+
+.contact p {
+  font-size: 14px;
+  color: rgb(100, 100, 100);
+}
+
+.contact a {
+  color: black;
+  font-size: 14px;
+}
+
+.cc_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+
+.cc_logo p {
+  text-align: center;
+  width: 73vw;
+  font-weight: 400;
+  font-size: 13px;
+  color: rgb(100, 100, 100);
+}
+
+.cc_logo h2 {
+  width: 70vw;
+  text-align: center;
+}
+
+.cc_logo img {
+  margin: 7% 0;
+  padding: 2% 20%;
+  border: 1px solid rgb(230, 230, 230);
+  width: 60%;
+}
+
+.past_summits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 7%;
+  text-align: center;
+}
+
+.past_summits p {
+  margin: 5% 3%;
+  color: rgb(100, 100, 100);
+  font-size: 13px;
+}
+
+.summitphotos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstphoto {
+  width: 80vw;
+  height: 23vh;
+  background: url(assets/firstphoto.jpeg);
+  box-shadow: inset -100vw -100vh rgba(252, 3, 3, 0.594);
+  background-size: cover;
+  margin: 3%;
+  transition: all 0.5s;
+}
+
+.secondphoto {
+  width: 80vw;
+  height: 23vh;
+  background: url(https://www.lourdes.edu/wp-content/uploads/2015/12/StudentOrganizations.jpg);
+  background-size: cover;
+  box-shadow: inset -100vw -100vh rgba(252, 3, 3, 0.594);
+  margin: 3% 0 6% 0;
+  transition: all 0.5s;
+}
+
+.past {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.past h2 {
+  font-weight: 800;
+  color: white;
+}
+
+.past p {
+  color: white;
+}
+
+.past:hover {
+  box-shadow: none;
+}
+
+.mobilemenu {
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  display: none;
+  position: fixed;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.917);
+}
+
+.close {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#closeicon {
+  padding: 10%;
+  margin: -2%;
+  width: 22px;
+  height: 22px;
+}
+
+.mobilemenu ul {
+  margin-top: -5vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.mobilemenu li {
+  margin: 3%;
+}
+
+.mobilemenu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Desktop Version Starts Here */
+
+@media screen and (min-width: 768px) {
+  .topbar {
+    background: black;
+    height: 4vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 4%;
+  }
+
+  .topbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    margin: auto 1%;
+  }
+
+  .topbar i {
+    font-size: 1.2rem;
+    margin-left: 1%;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.5px solid rgb(230, 230, 230);
+    padding: 0 5%;
+  }
+
+  .desktopnav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  #sitelogo {
+    width: 20%;
+  }
+
+  .navigation img {
+    width: 55%;
+  }
+
+  .desktopnav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+  }
+
+  #activelink {
+    color: rgb(255, 73, 37);
+  }
+
+  .program-section a {
+    display: block;
+    margin: 3% auto;
+    color: white;
+    text-align: center;
+  }
+
+  .navigation a {
+    display: block;
+  }
+
+  .contact h4 a {
+    font-size: 1.3rem;
+  }
+
+  .desktopnav a:hover {
+    color: rgb(255, 73, 37);
+  }
+
+  .desktopnav li {
+    margin-right: 2rem;
+    list-style: none;
+  }
+
+  .desktopnav button {
+    background: transparent;
+    border: 4px solid rgb(255, 73, 37);
+    padding: 7% 10%;
+    width: 10vw;
+    color: rgb(255, 73, 37);
+  }
+
+  .desktopnav button:hover {
+    background: rgb(255, 73, 37);
+    color: white;
+  }
+
+  .main_info {
+    background-size: cover;
+  }
+
+  .mainpagesection {
+    padding: 3% 10%;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  #menubar {
+    display: none;
+  }
+
+  .infosection p {
+    font-size: 1rem;
+  }
+
+  .infosection h3 {
+    font-size: 2rem;
+  }
+
+  .infosection h1 {
+    font-size: 4rem;
+    width: 70vw;
+  }
+
+  .info_para {
+    width: 50vw;
+    padding: 2%;
+  }
+
+  .time_and_venue h2 {
+    font-size: 2.5rem;
+  }
+
+  .time_and_venue p {
+    font-size: 1.5rem;
+  }
+
+  hr {
+    width: 5%;
+    margin: 1%;
+  }
+
+  .programs {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 0.2%;
+    padding: 0 10%;
+  }
+
+  .single_program {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0.2%;
+    padding: 20% 5%;
+    border: 2px solid transparent;
+  }
+
+  .single_program img,
+  #forum {
+    width: 15%;
+  }
+
+  .single_program:hover {
+    border: 2px solid rgb(153, 153, 153);
+  }
+
+  .single_program p {
+    width: 100%;
+  }
+
+  .join_cc {
+    display: none;
+  }
+
+  .program-section {
+    padding: 3%;
+  }
+
+  .morebtn {
+    display: none;
+  }
+
+  .partner_photos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 60vw;
+  }
+
+  .partner_photos img {
+    width: 15%;
+  }
+
+  .lastitem {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .lastitem img {
+    width: 15%;
+  }
+
+  .lastitem p {
+    font-size: 1em;
+    margin: 4%;
+    width: auto;
+  }
+
+  .speakers {
+    padding: 4% 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .single-speakers img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .single-speakers h3 {
+    font-size: 1.5rem;
+  }
+
+  .single-speakers hr {
+    width: 5%;
+  }
+
+  .speakerdesc {
+    font-size: 14px;
+  }
+
+  .speaker_lastdesc {
+    font-size: 15px;
+  }
+
+  .about_infosection {
+    padding: 10% 0 0 0;
+  }
+
+  .about_infosection p {
+    font-size: 1rem;
+  }
+
+  .about_infosection h3 {
+    font-size: 2rem;
+  }
+
+  .about_infosection h1 {
+    font-size: 2.5rem;
+    width: 70vw;
+  }
+
+  .about_info_para {
+    width: 50vw;
+    padding: 2%;
+  }
+
+  .contact p {
+    font-size: 1.2rem;
+  }
+
+  .cc_logo {
+    border-top: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding: 4%;
+    margin-bottom: 5%;
+  }
+
+  .cc_logo h2 {
+    width: 90vw;
+  }
+
+  .cc_logo p {
+    font-size: 1rem;
+  }
+
+  .cc_logo img {
+    width: 15%;
+    padding: 1% 10%;
+    margin: 5% 0 1% 0;
+  }
+
+  .past_summits p {
+    margin: 3%;
+    font-size: 1rem;
+  }
+
+  .summitphotos {
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .past {
+    width: 40vw;
+    height: 35vh;
+  }
+
+  .mobilemenu {
+    display: none !important;
+  }
+
+  main {
+    filter: blur(0) !important;
+  }
+}
