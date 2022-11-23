@@ -31,25 +31,25 @@ const SpeakerList = [
   },
   {
     username: 'Mark Woodward',
-    imagelink: 'aseets/2.avif',
+    imagelink: 'assets/2.jpg',
     designation: 'Professor, University of Canada',
     descriptsion: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.',
   },
   {
     username: 'Sara Casey',
-    imagelink: 'aseets/3.avif',
+    imagelink: 'assets/3.avif',
     designation: 'Online Educator',
     descriptsion: 'Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.',
   },
   {
     username: 'Jordan Whitaker',
-    imagelink: 'aseets/4.avif',
+    imagelink: 'assets/4.avif',
     designation: 'Research Scholar',
     descriptsion: 'Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing.',
   },
   {
     username: 'Claire Cook',
-    imagelink: 'aseets/5.avif',
+    imagelink: 'assets/5.avif',
     designation: 'Scholar, Oxford University',
     descriptsion: 'Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, rutrum.',
   },
@@ -61,7 +61,7 @@ const SpeakerList = [
   },
 ];
 
-for (let i = 0; i < SpeakerList.length; i+1) {
+for (let i = 0; i < SpeakerList.length; i++) {
   SpeakerCard.innerHTML += `
     <div class="single-speakers">
                     <img src="${SpeakerList[i].imagelink}">
@@ -74,5 +74,5 @@ for (let i = 0; i < SpeakerList.length; i+1) {
                         </p>
                     </div>
                 </div>
-    `;
+    `
 }
