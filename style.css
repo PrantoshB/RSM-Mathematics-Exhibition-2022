@@ -708,4 +708,6 @@ hr {
     width: 40vw;
     height: 35vh;
   }
+  .mobilemenu {
+    display: none;
 }
