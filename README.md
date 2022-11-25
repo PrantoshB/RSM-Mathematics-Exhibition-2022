@@ -28,7 +28,7 @@
 
 # 📖 Capstone-Project: RSM Mathematics Exhibition 2022 <a name="about-project"></a>
 
-**[Capstone-Project: RSM Mathematics Exhibition 2022]** is about a Mathematics Exhibition in a University. People can visit the website to see the details of the program.
+This project is all about a Mathematics Exhibition in a University. People can visit the website to see the details of the program.
 
 [Loom Video Presentation](https://www.loom.com/share/663d7067ef014f298ad487d2e6df6296)
 
