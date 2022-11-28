@@ -131,5 +131,3 @@ Give a ⭐️ if you like this project!
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-=======
-# RSM-Mathematics-Exhibition-2022
