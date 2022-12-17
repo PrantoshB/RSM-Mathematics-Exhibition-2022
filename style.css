@@ -12,8 +12,6 @@ button {
   background-image: url('assets/background-capstone.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* background-size: 100% 90%; */
   background-attachment: fixed;
 }
 
@@ -51,6 +49,7 @@ button {
   padding: 5%;
   margin: 2%;
   font-size: 13px;
+  color: white;
 }
 
 .time_and_venue {
@@ -60,6 +59,7 @@ button {
 .time_and_venue h2,
 p {
   margin: 1% 0;
+  color: white;
 }
 
 .program-section {
@@ -151,6 +151,7 @@ hr {
 
 #menubar {
   padding: 5%;
+  filter: invert(100%);
 }
 
 .speakerdesc {
@@ -210,6 +211,7 @@ hr {
 .lastitem p {
   width: 60%;
   font-size: 13px;
+  color: black;
 }
 
 .main_about_info {
@@ -217,6 +219,7 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center center;
 }
 
 .about_infosection {
@@ -229,11 +232,11 @@ hr {
 .main_about_info h3 {
   font-weight: 400;
   font-size: 20px;
-  color: rgb(251, 43, 2);
+  color: rgb(255, 218, 218);
 }
 
 .main_about_info h1 {
-  color: rgb(251, 43, 2);
+  color: rgb(255 222 140);
   padding: 0 7%;
   margin: 0 2%;
   margin: 4% 0 0 0;
@@ -264,11 +267,11 @@ hr {
 
 .contact p {
   font-size: 14px;
-  color: rgb(100, 100, 100);
+  color: rgb(255, 255, 255);
 }
 
 .contact a {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 14px;
 }
 
